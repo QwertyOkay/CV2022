@@ -8,6 +8,7 @@ body {
 
 .main{
     display: flex;
+    /* min-width: 1200px; */
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
@@ -16,7 +17,7 @@ body {
 .main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 50px 90px;
 }
 
 /* about styles */
@@ -174,6 +175,7 @@ color: #000000;
 
 /* Education styles */
 .education {
+    margin-top: 55px;
     margin-bottom: 10px;
 }
 
