@@ -53,20 +53,13 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #595959;
-/* width: 400px; */
+width: 400px;
 }
 
 
 /* project styles */
 .projects {
     margin-bottom: 50px;
-
-
-    /* margin: 100px 90px 300px 60 px;
-
-    margin: 50px;
-
-    margin: 100px 50px; */
 }
 
 
@@ -113,18 +106,6 @@ line-height: 24px;
 color: #000000;
 }
 
-/* work styles */
-
-.work {
-
-
-    /* padding: 100px 40px 50px 20px
-
-    padding: 50px;
-
-    padding: 50px 100px; */
-
-}
 
 .work-position{
     font-style: normal;
