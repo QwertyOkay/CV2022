@@ -53,7 +53,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 color: #595959;
-width: 400px;
+/* width: 400px; */
 }
 
 
@@ -182,7 +182,8 @@ color: #000000;
 /* sidebar styles */
 
 .sidebar {
-    background-color: #1E2939;
+    /* background-color: #1E2939; */
+    background: linear-gradient(#020d1f 16%, black 35%);
     padding-top: 40px;
     width: 370px;
 }
