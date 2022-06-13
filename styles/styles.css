@@ -4,6 +4,8 @@ body {
     background-color: #F5F7FA;
 }
 
+
+
 /* main styles */
 
 .main{
@@ -46,14 +48,14 @@ margin-bottom: 25px;
 }
 
 .about-description{
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
     align-items: center;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 20px;
 color: #595959;
-width: 400px;
 }
 
 
@@ -69,6 +71,7 @@ width: 400px;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
+    margin-top: 30px;
     color: #000000;
 }
 
@@ -191,24 +194,33 @@ color: #000000;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 .contact-type{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.1px;
     color: #FFFFFF;
     margin-right: 5px;
+}
+
+.contact-type2 {
+    font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.1px;
+        color: #FB6D3A;
+        margin-right: 5px;
 }
 
 .contact-link{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
-    color: #565E6A; 
+    line-height: 1.1px;
+    color: #938e8e; 
 }
 
 .tech-skills-list{
@@ -265,4 +277,74 @@ color: #FB6D3A;
 
 .soft-skills{
     margin-bottom: 45px;
+}
+
+.contentTitle {
+    font-weight: bold;
+    color: var(--current-dark-color);
+    margin-bottom: 10px;
+}
+
+.contentItems {
+    margin-left: -40px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.contentItems:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.wrapperLink {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contentItem:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contentLink {
+    color: var(--current-dark-color);
+}
+
+.linkText {
+    display: block;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.linkSpan {
+    display: block;
+    margin-left: auto;
+}
+
+.duration {
+    color: var(--background-color);
+    margin-bottom: 5px;
+}
+
+.place {
+    margin-bottom: 5px;
+}
+
+.role {
+    text-align: justify;
+}
+
+.imgWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 370px;
+    height: 370px;
+}
+
+.contactWrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
