@@ -19,7 +19,7 @@ body {
 .main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 50px 90px;
+    padding: 50px 110px;
 }
 
 /* about styles */
@@ -160,7 +160,7 @@ line-height: 1.15;
 
 /* Education styles */
 .education {
-    margin-top: 55px;
+    margin-top: 45px;
     margin-bottom: 10px;
 }
 
