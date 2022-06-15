@@ -169,13 +169,13 @@ line-height: 1.15;
 .sidebar {
     /* background-color: #1E2939; */
     background: linear-gradient(#020d1f 16%, black 35%);
-    padding-top: 20px;
+    padding-top: 20px;;
     width: 370px;
 }
 
 .photo {
     width: 370px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contacts,
@@ -287,6 +287,7 @@ color: #FB6D3A;
 }
 
 .contentItems {
+    width: 100%;
     margin-left: -40px;
     list-style: none;
     margin-bottom: 40px;
