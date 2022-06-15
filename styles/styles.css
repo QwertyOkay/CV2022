@@ -234,7 +234,7 @@ line-height: 1.15;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     color: #FB6D3A;
 }
 
@@ -247,7 +247,7 @@ line-height: 1.15;
 }
 
 .tech-skills{
-    margin-bottom: 45px;
+    margin-bottom: -2px;
 }
 
 .soft-skills-list{
@@ -256,7 +256,7 @@ line-height: 1.15;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     color: #FFFFFF;
 }
 
@@ -264,7 +264,7 @@ line-height: 1.15;
     font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.15;
 color: #FB6D3A;
 }
 
@@ -277,7 +277,7 @@ color: #FB6D3A;
 }
 
 .soft-skills{
-    margin-bottom: 45px;
+    margin-bottom: -5px;
 }
 
 .contentTitle {
