@@ -19,7 +19,7 @@ body {
 .main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 50px 110px;
+    padding: 40px 90px;
 }
 
 /* about styles */
@@ -323,7 +323,7 @@ color: #FB6D3A;
 
 .linkSpan {
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
 }
 
 .duration {
