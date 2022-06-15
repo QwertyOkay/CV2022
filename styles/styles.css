@@ -54,7 +54,7 @@ margin-bottom: 25px;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 20px;
+line-height: 1.15;
 color: #595959;
 }
 
@@ -123,7 +123,7 @@ color: #000000;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
+line-height: 1.15;
     color: #FB6D3A;
 }
 
@@ -147,13 +147,14 @@ color: #000000;
 .work-list{
   padding: 0;
   margin-left: 15px;  
+line-height: 1.15;
 }
 
 .work-list-item{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.15;
     color: #595959; 
 }
 
@@ -302,6 +303,12 @@ color: #FB6D3A;
 
 .contentItem:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.itemText {
+    font-size: 14px;
+    color: #595959;
+    line-height: 1.15;
 }
 
 .contentLink {
