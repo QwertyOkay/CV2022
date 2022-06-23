@@ -1,6 +1,5 @@
 
 body {
-    width: 1200px;
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F7FA;
 }
@@ -11,8 +10,7 @@ body {
 
 .main{
     display: flex;
-    justify-content: start;
-    /* min-width: 1200px; */
+    justify-content: center;
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
