@@ -10,6 +10,7 @@ body {
 
 .main{
     display: flex;
+    justify-content: center;
     /* min-width: 1200px; */
     flex-direction: row-reverse;
     width: 1200px;
@@ -49,7 +50,7 @@ margin-bottom: 25px;
 
 .about-description{
     display: flex;
-    /* justify-content: center; */
+    justify-content: start;
     align-items: center;
 font-style: normal;
 font-weight: normal;
