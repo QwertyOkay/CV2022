@@ -314,13 +314,22 @@ color: #FB6D3A;
 }
 
 .contentLink {
-    color: var(--current-dark-color);
+    /* color: var(--current-dark-color); */
+    color: #FB6D3A;
+    font-weight: bold;
 }
 
 .linkText {
+    color: #000000;
     display: block;
     margin-right: 15px;
     text-transform: uppercase;
+    font-weight: 400;
+}
+
+.textLink {
+    list-style: none;
+    color: #000000;
 }
 
 .linkSpan {
