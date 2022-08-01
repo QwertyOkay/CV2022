@@ -12,7 +12,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1240px;
+    height: 1754px;
     margin: 0 auto;
 }
 
@@ -191,7 +192,7 @@ line-height: 1.15;
 }
 
 .sidabar-title{
-    color: #FFFFFF;
+    color: #f3a691;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -222,7 +223,7 @@ line-height: 1.15;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.1px;
-    color: #938e8e; 
+    color: #fff; 
 }
 
 .tech-skills-list{
