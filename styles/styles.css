@@ -22,6 +22,7 @@ body {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 15px 50px;
+    margin: 0 auto;
 }
 
 /* about styles */
@@ -192,7 +193,7 @@ line-height: 1.15;
 }
 
 .sidabar-title{
-    color: #f3a691;
+    color: #ffffff;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
