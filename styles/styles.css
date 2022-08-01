@@ -13,8 +13,7 @@ body {
     justify-content: center;
     flex-direction: row-reverse;
     width: 1240px;
-    height: 1754px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .main-content {
@@ -192,7 +191,7 @@ line-height: 1.15;
 }
 
 .sidabar-title{
-    color: #f3a691;
+    color: #fff;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
