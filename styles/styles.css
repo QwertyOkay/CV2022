@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
+    color: #000000;
     /* height: 297mm;
     width: 210mm; */
 }
@@ -35,8 +36,8 @@ margin-bottom: 40px;
 .about-position{
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
-line-height: 17px;
+font-size: 22px;
+/* line-height: 17px; */
 color: #000000;
 margin-bottom: 20px;
 
@@ -61,6 +62,7 @@ font-size: 20px;
 line-height: 1.4;
 color: #000000;
 padding-right: 39px;
+    margin-top: 44px;
 }
 
 
@@ -76,7 +78,7 @@ padding-right: 39px;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
-    margin-top: 93px;
+   margin-top: 54px;
     color: #000000;
 }
 
@@ -118,8 +120,8 @@ color: #000000;
 .work-position{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
+   font-size: 14px;
+    line-height: 1.55;
     color: #000000;
     margin-bottom: 10px;
 }
@@ -127,17 +129,16 @@ color: #000000;
 .organization{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-line-height: 1.15;
+    font-size: 14px;
+line-height: 1.55;
     color: #FB6D3A;
 }
 
 .period{
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8; 
+    font-size: 14px;
+    line-height: 1.55;
     margin-bottom: 10px; 
 }
 
@@ -152,14 +153,14 @@ color: #000000;
 .work-list{
   padding: 0;
   margin-left: 15px;  
-line-height: 1.15;
+line-height: 1.55;
 }
 
 .work-list-item{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.15;
+    line-height: 1.55;
     color: #000000; 
 }
 
@@ -200,7 +201,7 @@ line-height: 1.15;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
 }
 
 .contact-type{
@@ -217,7 +218,7 @@ line-height: 1.15;
         font-weight: bold;
         font-size: 14px;
         line-height: 1.1px;
-        color: #FB6D3A;
+        color: #fff;
         margin-right: 5px;
 }
 
@@ -253,6 +254,7 @@ line-height: 1.15;
 }
 
 .tech-skills{
+        margin-top: 52px;
     margin-bottom: -2px;
 }
 
@@ -283,6 +285,7 @@ color: #FB6D3A;
 }
 
 .soft-skills{
+    margin-top: 51px;
     margin-bottom: -5px;
 }
 
@@ -306,6 +309,7 @@ color: #FB6D3A;
 .wrapperLink {
     display: flex;
     margin-bottom: 5px;
+    align-items: baseline;
 }
 
 .contentItem:not(:last-child) {
@@ -314,14 +318,15 @@ color: #FB6D3A;
 
 .itemText {
     font-size: 14px;
-    color: #595959;
-    line-height: 1.15;
+    color: #000000;
+    line-height: 1.55;
+    font-weight: normal;
 }
 
 .contentLink {
-    /* color: var(--current-dark-color); */
     color: #FB6D3A;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .linkText {
@@ -330,6 +335,7 @@ color: #FB6D3A;
     margin-right: 15px;
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 22px;
 }
 
 .textLink {
@@ -340,6 +346,7 @@ color: #FB6D3A;
 .linkSpan {
     display: block;
     margin-left: 20px;
+    font-size: 14px;
 }
 
 .duration {
@@ -370,4 +377,11 @@ color: #FB6D3A;
     margin-left: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: unset; */
+    flex-wrap: wrap;
 }
