@@ -58,8 +58,8 @@ margin-bottom: 25px;
     align-items: center;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 1.4;
+font-size: 16px;
+    line-height: 1.55;
 color: #000000;
 padding-right: 39px;
     margin-top: 44px;
@@ -78,7 +78,7 @@ padding-right: 39px;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
-   margin-top: 54px;
+   /* margin-top: 54px; */
     color: #000000;
 }
 
@@ -90,7 +90,7 @@ margin-left: 15px;
 .projects-item{
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #000000;
 }
@@ -99,7 +99,7 @@ color: #000000;
 .project-link {
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #595959;
 }
@@ -111,7 +111,7 @@ color: #595959;
 .project-bracket{
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #000000;
 }
@@ -119,8 +119,8 @@ color: #000000;
 
 .work-position{
     font-style: normal;
-    font-weight: bold;
-   font-size: 14px;
+        font-weight: 400;
+   font-size: 16px;
     line-height: 1.55;
     color: #000000;
     margin-bottom: 10px;
@@ -128,16 +128,18 @@ color: #000000;
 
 .organization{
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    /* font-weight: bold; */
+    font-size: 16px;
 line-height: 1.55;
     color: #FB6D3A;
+        text-decoration: none;
+    cursor: pointer;
 }
 
 .period{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.55;
     margin-bottom: 10px; 
 }
@@ -159,7 +161,7 @@ line-height: 1.55;
 .work-list-item{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.55;
     color: #000000; 
 }
@@ -167,7 +169,7 @@ line-height: 1.55;
 /* Education styles */
 .education {
     margin-top: 45px;
-    margin-bottom: 10px;
+    /* margin-bottom: 92px; */
 }
 
 /* sidebar styles */
@@ -207,7 +209,7 @@ line-height: 1.55;
 .contact-type{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.1px;
     color: #FFFFFF;
     margin-right: 5px;
@@ -216,7 +218,7 @@ line-height: 1.55;
 .contact-type2 {
     font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.1px;
         color: #fff;
         margin-right: 5px;
@@ -225,7 +227,7 @@ line-height: 1.55;
 .contact-link{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.1px;
     color: #fff; 
         text-decoration: none;
@@ -240,7 +242,7 @@ line-height: 1.55;
 .tech-skills-item{
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.15;
     color: #FB6D3A;
 }
@@ -248,7 +250,7 @@ line-height: 1.55;
 .tech-skills-text{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.55;
     color: #FFFFFF;
 }
@@ -263,7 +265,7 @@ line-height: 1.55;
     margin-left: 17px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.15;
     color: #FFFFFF;
 }
@@ -271,7 +273,7 @@ line-height: 1.55;
 .soft-skills-item{
     font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 16px;
 line-height: 1.15;
 color: #FB6D3A;
 }
@@ -279,7 +281,7 @@ color: #FB6D3A;
 .soft-skills-text{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.55;
     color: #FFFFFF; 
 }
@@ -317,7 +319,7 @@ color: #FB6D3A;
 }
 
 .itemText {
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     line-height: 1.55;
     font-weight: normal;
@@ -325,17 +327,17 @@ color: #FB6D3A;
 
 .contentLink {
     color: #FB6D3A;
-    font-weight: bold;
-    font-size: 14px;
+    /* font-weight: bold; */
+    font-size: 16px;
 }
 
 .linkText {
     color: #000000;
     display: block;
     margin-right: 15px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 22px;
+    /* text-transform: uppercase; */
+        font-weight: normal;
+    font-size: 16px;
 }
 
 .textLink {
@@ -346,7 +348,7 @@ color: #FB6D3A;
 .linkSpan {
     display: block;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .duration {
@@ -384,4 +386,8 @@ color: #FB6D3A;
     flex-direction: column;
     /* justify-content: unset; */
     flex-wrap: wrap;
+}
+
+.black {
+    color: #000000;
 }
