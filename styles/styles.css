@@ -163,12 +163,13 @@ line-height: 1.55;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.55;
+    /* line-height: 1.65; */
     color: #000000; 
 }
 
 /* Education styles */
 .education {
-    margin-top: 45px;
+    margin-top: 50px;
     /* margin-bottom: 92px; */
 }
 
@@ -390,4 +391,17 @@ color: #FB6D3A;
 
 .black {
     color: #000000;
+}
+
+.margin__work {
+        margin-top: -5px;
+        margin-bottom: -13px;
+}
+
+.margin__period {
+    margin-top: 6px;
+}
+
+.margin__work2 {
+    margin-top: 7px;
 }
