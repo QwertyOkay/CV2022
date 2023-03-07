@@ -199,8 +199,7 @@
             </ul>
             <!--Work-->
             <h3 class="title" style="margin-bottom: 21px; margin-top: 73px;">Work Experience</h3>
-            <div class="work"
-                style="display: flex; justify-content: space-between; padding: 65px;  margin: -51px auto;flex-wrap: wrap;">
+            <div class="work companies">
                 <!--Company0-->
                 <div class="flex" style="margin-left: -63px;">
                     <a href="#" class="organization">*Under NDA*
@@ -260,21 +259,13 @@
                             PHP</li>
                     </ul>
                 </div>
-                <!--Company3-->
-                <!-- <div>
-              <h4 class="work-position">
-                Online Shop Owner <a href="https://www.instagram.com/kpshmt/?hl=ru" class="organization" target="_blank">Купишмот Онлайн</a></h4>
-                <p class="period">April 2013 - February 2018   <span class="line">|</span> Ukraine, Zaporizhzhya</p>
-              <ul class="work-list">
-                  <li class="work-list-item">
-                    Business project</li>
-              </ul> 
-          </div> -->
             </div>
-            <!--Education-->
-            <div class="education">
-                <h3 class="title" style="margin-bottom: 36px;">Education</h3>
 
+            <!--Education-->
+             <h3 class="title">Education</h3>
+            <div class="education companies">
+
+                <div class="flex" style="margin-left: -63px;">
                 <h4 class="work-position">
                     <a href="https://goit.ua/" class="organization" target="_blank">
                         <span class="organization"> IT School GoIT </span>
@@ -287,6 +278,9 @@
                     Sep 2021 - Nov 2022 <span class="line">|</span> Ukraine, Kyiv
                 </p>
 
+                </div>
+
+                <div class="flex">
                 <h4 class="work-position">
                     <span class="organization"> Zaporizhzhia National University of Ukraine </span>
                 </h4>
@@ -296,7 +290,9 @@
                 <p class="period">
                     Sep 2016 - Jun 2017 <span class="line">|</span> Ukraine, Zaporizhzhya
                 </p>
+                </div>
 
+                <div class="flex" style="margin-left: -63px;margin-top: 35px;">
                 <h4 class="work-position">
                     <span class="organization"> Zaporizhzhia Polytechnic National University of Ukraine </span>
                 </h4>
@@ -306,42 +302,10 @@
                 <p class="period" style="margin-bottom: 70px;">
                     Sep 2016 - Jun 2017 <span class="line">|</span> Ukraine, Zaporizhzhya
                 </p>
-
-                <!-- <h4 class="work-position">
-                 <span class="organization"> Zaporizhzhia Polytechnic National University of Ukraine </span>
-                </h4>
-                <h4 class="work-position">
-                    Micro and nanoelectronics (Bachelors)
-                 </h4>
-                     <p class="period">
-                        Sep 2013 - May 2016  <span class="line">|</span> Ukraine, Zaporizhzhya
-                     </p>  -->
-
-                <!-- <h4 class="work-position">
-                     <span class="organization"> College of Computer Technologies of the National University "Zaporizka Polytechnic"</span>
-                    </h4>  
-                    <h4 class="work-position">
-                         Telecommunications and radio electronics (Secondary special education)
-                     </h4>
-                     <p class="period">
-                                Sep 2009 - Jun 2013 <span class="line">|</span> Ukraine, Zaporizhzhya
-                             </p>  -->
+                </div>
             </div>
-            <!-- <div class="education">
-                         <h3 class="title">Additional education</h3>
-
-                        <h4 class="work-position">
-                            <span class="organization"> IT School GoIT </span>
-                        </h4>
-                        <h4 class="work-position">
-                            Full-Stack Developer
-                        </h4>
-                        <p class="period">
-                            Sep 2021 - up to now <span class="line">|</span> Ukraine, Kyiv
-                        </p>   
-                                           
-                        </div> -->
         </div>
+
         <!--Sidebar-->
         <aside class="sidebar">
             <img src="./img/Profile.jpg" alt="cv photo" class="photo">
@@ -390,7 +354,6 @@
                     <li class="tech-skills-item"> <span class="tech-skills-text">GTD</span> </li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">Googling</span> </li>
                     <li class="tech-skills-item"> <span class="tech-skills-text">Scrum / Agile </span> </li>
-                    <!-- <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span> </li> -->
                 </ul>
             </div>
             <!--Soft Skills-->
@@ -411,8 +374,6 @@
                     <!-- <li class="soft-skills-item"> <span class="soft-skills-text">Hardworking</li> -->
                     <li class="soft-skills-item"> <span class="soft-skills-text">Business communication skills</li>
                     <!-- <li class="soft-skills-item"> <span class="soft-skills-text">Risk taking</li> -->
-
-
                 </ul>
             </div>
             <div class="soft-skills">
@@ -428,10 +389,11 @@
     </div>
     </aside>
     </div>
+
     <script>
         let activeAlert = false;
         const title = "Alexandr Kotenko | CV 2023";
-        const msg = "Thank you for attention";
+        const msg = "Thank you for attention!";
         const changeTitle = setInterval(() => {
             document.title = activeAlert ? title : msg;
 
