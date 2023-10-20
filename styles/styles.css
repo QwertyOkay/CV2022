@@ -436,3 +436,23 @@ body {
 .force-overflow {
   min-height: 450px;
 }
+
+.git {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.socialsContact {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: -36px;
+}
+
+.linkedin {
+  width: 24px;
+  height: 24px;
+}
