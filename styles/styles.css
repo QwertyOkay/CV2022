@@ -449,5 +449,6 @@ body {
 }
 
 ::selection {
-  background-color: #fb6d3a;
+  background-color: #f88f69;
+  color: #fff;
 }
