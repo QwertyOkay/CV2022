@@ -37,8 +37,8 @@ body {
 }
 .about-name {
   font-style: normal;
-  font-weight: bold;
-  font-size: 45px;
+  font-weight: 300;
+  font-size: 35px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 15px;
@@ -461,7 +461,7 @@ body {
 .githubFont {
   color: #fb6d3a;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .linkText::before {
